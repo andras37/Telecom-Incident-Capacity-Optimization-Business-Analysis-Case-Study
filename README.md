@@ -1,50 +1,51 @@
 # Telecom Incident & Capacity Optimization  
-### Business Analysis Case Study
+## Business Analysis Case Study
 
-## Overview
-This project is a Business Analysis case study focused on incident management, capacity optimization, and SLA performance in a telecommunications environment.
+## Executive Overview
+This project is a Business Analysis case study focused on **incident management, capacity optimization, and SLA performance** within a telecommunications environment.
 
-The goal of the analysis is not to build a dashboard for its own sake, but to support **business decision-making** by identifying operational bottlenecks, prioritization opportunities, and trade-offs between cost, service quality, and customer impact.
-
----
-
-## Business Context
-A telecommunications company is experiencing an increasing volume of support incidents alongside rising SLA breaches.  
-Support teams are unevenly loaded, resolution times vary significantly, and management lacks clear insight into **where intervention would create the highest business impact**.
-
-Multiple stakeholders (Operations, Service Delivery, Finance, Customer Experience) view the problem from different perspectives, creating uncertainty around prioritization and investment decisions.
+The objective is to support **management decision-making** by identifying where limited operational resources should be allocated to achieve the highest business impact, rather than producing dashboards for reporting purposes.
 
 ---
 
-## Problem Statement
-The organization does not have a clear, decision-oriented understanding of:
-- Which incident types and teams create the largest operational bottlenecks  
-- Where SLA breaches originate and why  
-- Which improvement actions should be prioritized under limited capacity and budget  
+## Business Problem
+The organization is facing increasing incident volumes, uneven workload distribution across support teams, and a rising number of SLA breaches.
 
-As a result, decisions are reactive rather than data-informed, increasing operational risk and customer dissatisfaction.
-
----
-
-## Analysis Scope
-The project focuses on:
-- Incident volume and resolution performance  
-- SLA compliance and breach patterns  
-- Capacity utilization and workload distribution  
-- Business impact proxies (customer risk, operational cost drivers)  
-
-Out of scope:
-- Detailed root-cause technical analysis  
-- Predictive or machine learning models  
+While operational data is available, decision-making is largely reactive. Management lacks a structured, decision-oriented view of:
+- where operational bottlenecks originate,
+- which issues drive the greatest business and customer impact,
+- and which improvement actions should be prioritized under constrained capacity and budget.
 
 ---
 
-## Deliverables
-- Problem framing and stakeholder analysis  
-- KPI hierarchy linking operational metrics to business outcomes  
-- Identification of bottlenecks and prioritization areas  
-- Decision options with trade-off considerations  
-- Supporting visual analysis (Power BI)
+## Analysis Approach
+The analysis follows a **Business Analyst–driven structure**, progressing from problem definition to decision options:
+
+1. **Problem framing** – defining the decision challenge beyond surface-level symptoms  
+2. **Stakeholder analysis** – identifying competing objectives and trade-offs  
+3. **KPI hierarchy** – linking operational metrics to business outcomes  
+4. **Decision options** – evaluating alternative intervention paths and their risks  
+
+Analytical tools are used only as supporting evidence, not as the primary output.
+
+---
+
+## Key Insights
+- Operational impact is **highly concentrated**: a limited number of incident categories and teams drive most SLA breaches and delays.
+- Overall capacity is not the primary constraint; **allocation and process design** reduce effective throughput.
+- Broad capacity expansion offers fast relief but comes with **high recurring costs** and limited long-term efficiency gains.
+
+---
+
+## Recommended Direction
+The analysis recommends prioritizing **targeted process improvements for high-impact incident categories**, supported by selective workload rebalancing.
+
+This approach provides the strongest balance between:
+- SLA compliance improvement  
+- operational efficiency  
+- cost control  
+
+Capacity expansion should be considered only if demand growth persists after optimization measures are implemented.
 
 ---
 
