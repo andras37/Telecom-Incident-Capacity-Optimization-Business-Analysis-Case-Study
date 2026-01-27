@@ -47,6 +47,39 @@ This approach provides the strongest balance between:
 
 Capacity expansion should be considered only if demand growth persists after optimization measures are implemented.
 
----
 
-## Repository Structure
+Executive Summary
+
+This project analyzes operational incident data from a telecommunications provider to identify the primary drivers of SLA breaches and resolution delays.
+By combining incident volume, resolution time, and SLA compliance metrics, the analysis reveals structural capacity imbalances rather than isolated team underperformance.
+
+The insights support data-driven capacity reallocation and root-cause prioritization, enabling management to reduce SLA breach rates, improve customer experience, and stabilize operational performance under high demand.
+
+Outcome: clear prioritization of intervention areas with measurable impact on SLA reliability.
+
+Business Questions Addressed
+
+Where do SLA breaches concentrate across teams and categories?
+
+Is SLA non-compliance driven by volume, complexity, or execution inefficiency?
+
+Which teams should be prioritized for capacity intervention?
+
+What operational actions would most effectively reduce SLA breach exposure?
+
+Key Deliverables
+
+Structured business analysis (problem, stakeholders, KPI tree, decision options)
+
+Interactive Power BI dashboard for executive decision support
+
+Actionable recommendations focused on capacity optimization
+
+Tools & Methods
+
+Power BI (DAX, visual storytelling, executive dashboards)
+
+Business Analysis frameworks (problem structuring, KPI trees, decision options)
+
+Synthetic but realistic telecom incident data
+
