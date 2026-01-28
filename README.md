@@ -85,6 +85,8 @@ The Power BI dashboard provides executive-level visibility into:
 
 Visuals are designed for **storytelling**, not exploration.
 
+The Power BI dashboard directly supports executive decision-making by visualizing capacity-driven SLA risk and linking analytical insights to concrete intervention options.
+
 ---
 
 ## Repository Structure
