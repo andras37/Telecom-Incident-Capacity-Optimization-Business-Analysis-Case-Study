@@ -60,4 +60,7 @@ The Business Analyst’s role in this initiative is to:
 - Support management with evidence-based prioritization  
 
 This enables proactive, structured decision-making rather than reactive escalation-driven responses.
+## Decision Required
+
+Approve targeted capacity rebalancing and focused process interventions for high-volume teams in order to reduce SLA breach exposure and stabilize operational performance within the next quarter.
 
