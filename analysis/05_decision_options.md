@@ -1,76 +1,73 @@
-# Decision Options
+# Decision Options and Recommendation
 
-## Purpose
-This document outlines alternative decision paths for addressing incident management and capacity challenges, based on the insights derived from the problem statement, stakeholder analysis, and KPI tree.
+## Decision Context
 
-Each option represents a different prioritization strategy with clear trade-offs between cost, service quality, and operational risk.
+The organization is experiencing recurring SLA breaches driven by delayed incident resolution.  
+Despite stable team structures, performance variability across teams indicates a structural issue rather than isolated execution failures.
 
----
-
-## Option A – Capacity Reallocation and Workload Balancing
-**Description:**  
-Reallocate existing support capacity by redistributing incident categories across teams and adjusting assignment and routing rules.
-
-**Expected impact:**
-- Improved workload balance
-- Reduced resolution time variability
-- Moderate improvement in SLA compliance
-
-**Risks and trade-offs:**
-- Requires change management and team retraining
-- Limited impact if overall incident volume continues to grow
-
-**Best suited when:**  
-Capacity exists but is unevenly utilized across teams.
+A decision is required to determine the most effective intervention strategy to reduce SLA breach exposure while maintaining operational stability.
 
 ---
 
-## Option B – Targeted Process Improvement for High-Impact Incidents
-**Description:**  
-Focus improvement efforts on a limited number of incident categories that disproportionately drive SLA breaches, long resolution times, and repeat incidents.
+## Option A – Maintain Current Structure with Incremental Efficiency Improvements
 
-**Expected impact:**
-- High impact on SLA compliance
-- Reduced repeat incidents
-- Strong cost-to-impact ratio
+**Description**  
+Focus on minor process optimizations and performance monitoring within the existing team structure.
 
-**Risks and trade-offs:**
-- Benefits limited to selected categories
-- Requires accurate identification of high-impact drivers
+**Expected Impact**  
+- Marginal improvement in resolution efficiency  
+- Limited reduction in SLA breach rate  
 
-**Best suited when:**  
-A small subset of incidents creates the majority of operational and customer impact.
+**Risks**  
+- Does not address workload concentration  
+- High risk of continued SLA non-compliance under peak demand  
 
----
-
-## Option C – Capacity Expansion
-**Description:**  
-Increase overall support capacity through additional staffing or selective outsourcing.
-
-**Expected impact:**
-- Immediate backlog reduction
-- Short-term SLA compliance improvement
-
-**Risks and trade-offs:**
-- High recurring costs
-- Does not address underlying process inefficiencies
-
-**Best suited when:**  
-Sustained demand growth cannot be absorbed by current capacity despite optimization efforts.
+**Assessment**  
+This option improves visibility but fails to address the root cause of capacity imbalance.
 
 ---
 
-## Recommended Direction
-Based on the analysis, **Option B** offers the strongest balance between business impact and cost efficiency in the short to medium term.  
-**Option A** can be used as a complementary measure to stabilize workload distribution.
+## Option B – Broad Process Optimization Across All Teams
 
-**Option C** should be considered only if demand growth continues after process and allocation improvements have been implemented.
+**Description**  
+Standardize workflows and introduce efficiency initiatives across all operational teams.
+
+**Expected Impact**  
+- Moderate improvement in average resolution time  
+- Improvement distributed evenly, regardless of actual risk concentration  
+
+**Risks**  
+- High implementation effort  
+- Diluted impact on high-risk teams  
+- Change fatigue across the organization  
+
+**Assessment**  
+While operationally sound, this approach lacks focus and reduces overall effectiveness.
 
 ---
 
-## BA Perspective
-The role of the Business Analyst is not to select the final solution, but to:
-- Make trade-offs explicit
-- Clarify assumptions and risks
-- Enable informed decision-making based on evidence rather than intuition
+## Option C – Targeted Capacity Rebalancing and Root-Cause Intervention (Recommended)
 
+**Description**  
+Prioritize high-volume teams for targeted capacity support, combined with focused process improvements addressing recurring incident drivers.
+
+**Why This Addresses the Root Cause**  
+Analysis shows SLA breaches concentrate where incident volume exceeds effective handling capacity.  
+Targeted intervention directly addresses this imbalance rather than applying uniform changes.
+
+**Expected KPI Impact**  
+- Reduction in SLA breach rate  
+- Improved resolution time consistency  
+- Stabilized performance during peak demand  
+
+**Implementation Horizon**  
+- Short-term capacity reallocation  
+- Medium-term process optimization for dominant incident categories  
+
+---
+
+## Final Recommendation
+
+Approve **Option C: Targeted Capacity Rebalancing and Root-Cause Intervention**.
+
+This approach provides the strongest balance between implementation effort and measurable SLA improvement by focusing resources where operational risk is highest.
